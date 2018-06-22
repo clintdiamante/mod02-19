@@ -1,0 +1,21 @@
+/*
+ *	CSS Reset
+ */
+
+ * {
+ 	padding: 0;
+ 	margin: 0;
+ 	box-sizing: border-box;
+ }
+
+/*
+ *	General Rules
+ */
+
+ body {
+ 	background-color: #FFF;
+ }
+
+ a#intro-1 {
+ 	background-image: url('https://lorempixel.com/1199/900/');
+ }
