@@ -14,8 +14,144 @@
 
  body {
  	background-color: #FFF;
+ 	font-family: 'Raleway', sans-serif;
  }
 
- a#intro-1 {
- 	background-image: url('https://lorempixel.com/1199/900/');
+ a {
+ 	color: #000;
+ }
+
+/*
+ * Header Section
+ */
+
+ header > nav {
+ 	background-color: #D3D3D3;
+ 	border-bottom: 2px solid #808080;
+ }
+
+ header > nav > div > a:hover {
+ 	color: #000;
+ }
+
+ header > nav > div > a > h1 {
+ 	color: #4C4C4C;
+ 	font-family: 'Unica One', sans-serif;
+ }
+
+
+ header > nav > div > div > ul > li > a {
+ 	color: #4C4C4C;
+ }
+
+ header > nav > div > div > ul > li > a:hover {
+ 	color: #000;
+ }
+
+ header > nav > div > div > form > input#header-search {
+ 	border-radius: 15px;
+ 	width: 120px;
+ }
+
+/*
+ * Main Content
+ */
+
+ div.site-main > div.intro {
+ 	padding: 10px 10px 20px 10px;
+ }
+
+ .no-border-left-right {
+ 	border-top: 1px solid #D3D3D3;
+ 	border-bottom: 1px solid #D3D3D3;
+ 	border-left: 0;
+ 	border-right: 0;
+ }
+
+ .only-bottom-border {
+ 	border-top: 0;
+ 	border-bottom: 1px solid #D3D3D3;
+ 	border-left: 0;
+ 	border-right: 0;
+ }
+
+/*
+ * Newsletter Section
+ */
+
+ div.site-newsletter {
+ 	padding: 80px;
+ }
+
+/*
+ * Instagram Section
+ */
+
+ .site-instagram {
+ 	position: relative;
+ }
+
+ .img-overlay {
+ 	position: absolute;
+ 	top: 0;
+  	bottom: 0;
+  	left: 0;
+ 	right: 0;
+ 	text-align: center;
+ 	z-index: 1;
+ }
+
+ .img-overlay:before {
+  	content: ' ';
+  	display: block;
+  	height: 50%;
+}
+
+ .img-overlay > a {
+ 	font-family: 'Unica One', sans-serif;
+ 	font-weight: bold;
+ 	text-transform: uppercase;
+ }
+
+ .img-fade-container {
+ 	background-color: black;
+ }
+
+ .img-fade {
+ 	opacity: 0.8;
+ }
+
+/*
+ * Footer Section
+ */
+
+ footer {
+ 	background-color: #000;
+ 	padding: 20px 0 10px;
+ 	font-family: 'Unica One', sans-serif;
+ }
+
+ footer > div > hr {
+ 	width: 800px;
+ 	background-color: #808080;
+ }
+
+ footer > div > ul > li > a {
+ 	color: #808080;
+ 	text-transform: uppercase;
+ }
+
+ footer > div > ul > li:nth-child(2),
+ footer > div > ul > li:nth-child(3),
+ footer > div > ul > li:nth-child(4),
+ footer > div > ul > li:nth-child(5) {
+ 	border-left: 1px solid #808080;
+ }
+
+ footer > div > ul > li > a:hover {
+ 	color: #FFF;
+ }
+
+ footer > div > div div > p {
+ 	color: #808080;
  }

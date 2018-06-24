@@ -3,150 +3,508 @@
 <html lang="en">
 
 <head>
+
 	<title>Bootstrap Activity: Featured Posts</title>
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
 	<!-- Loads favicon.ico -->
 	<link rel="icon" type="image/x-icon" href="./favicon.ico">
 	<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+
+	<!-- Loads Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
 	<!-- Loads Bootstrap Stylesheet -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
 	<!-- Loads Custom Stylesheet -->
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
 </head>
 
 <body>
-	<header>
-		<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Home
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-							<a class="dropdown-item" href="#">One Column</a>
-							<a class="dropdown-item" href="#">Two Column</a>
-							<a class="dropdown-item" href="#">Three Column</a>
-							<a class="dropdown-item" href="#">Four Column</a>
-							<a class="dropdown-item" href="#">Featured Posts</a>
-							<a class="dropdown-item" href="#">Full Width</a>
-						</div>
-					</li> <!-- /Home -->
 
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Posts
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-							<a class="dropdown-item" href="#">Image</a>
-							<a class="dropdown-item" href="#">Video</a>
-							<a class="dropdown-item" href="#">News Story</a>
-						</div>
-					</li> <!-- /Posts -->
+	<header class="site-header">
 
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Components
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown3">
-							<a class="dropdown-item" href="#">Typography</a>
-							<a class="dropdown-item" href="#">Buttons</a>
-							<a class="dropdown-item" href="#">Tables</a>
-							<a class="dropdown-item" href="#">Forms</a>
-							<a class="dropdown-item" href="#">Cards</a>
-						</div>
-					</li> <!-- /Components -->
-				</ul>
+		<nav class="navbar navbar-expand-md absolute-top">
 
-				<a class="navbar-brand mx-auto order-1 order-md-3" href="index.html">Lucid_</a>
+			<div class="container">
+
+				<div class="collapse navbar-collapse order-3 order-md-2" id="navbar">
+
+					<ul class="navbar-nav mr-auto">
+
+						<li class="nav-item dropdown active">
+
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+
+							<div class="dropdown-menu" aria-labelledby="dropdown02">
+
+								<a class="dropdown-item" href="#">One column</a>
+								<a class="dropdown-item" href="#">Two column</a>
+								<a class="dropdown-item" href="#">Three column</a>
+								<a class="dropdown-item" href="#">Four column</a>
+								<a class="dropdown-item" href="#">Featured posts</a>
+								<a class="dropdown-item" href="#">Full width</a>
+
+							</div> <!-- /.dropdown -->
+
+						</li> <!-- /.nav-item -->
+						
+						<li class="nav-item dropdown">
+
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Posts</a>
+
+							<div class="dropdown-menu" aria-labelledby="dropdown02">
+
+								<a class="dropdown-item" href="#">Image</a>
+								<a class="dropdown-item" href="#">Video</a>
+								<a class="dropdown-item" href="#">New story</a>
+
+							</div> <!-- /.dropdown -->
+
+						</li> <!-- /.nav-item -->
+					
+						<li class="nav-item dropdown">
+
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Components</a>
+
+							<div class="dropdown-menu" aria-labelledby="dropdown03">
+
+								<a class="dropdown-item" href="#">Typography</a>
+								<a class="dropdown-item" href="#">Buttons</a>
+								<a class="dropdown-item" href="#">Tables</a>
+								<a class="dropdown-item" href="#">Forms</a>
+								<a class="dropdown-item" href="#">Cards</a>
+
+							</div> <!-- /.dropdown -->
+
+						</li> <!-- /.nav-item -->
+						
+					</ul> <!-- /.navbar-nav -->
+
+				</div> <!-- /.navbar-collapse -->
+
+				<a class="navbar-brand mx-auto order-1 order-md-3" href="#"><h1>lucid_</h1></a>
 
 				<div class="collapse navbar-collapse order-4 order-md-4" id="navbar">
+
 					<ul class="navbar-nav ml-auto">
+
 						<li class="nav-item">
-							<a class="nav-link" href="page-about.html">About</a>
-						</li>
+							<a class="nav-link" href="#">About</a>
+						</li> <!-- /.nav-item -->
+
 						<li class="nav-item">
-							<a class="nav-link" href="page-contact.html">Contact</a>
-						</li>
-					</ul>
-					<form class="form-inline my-2 my-lg-0">
-						<input class="search js-search form-control form-control-rounded mr-sm-2" type="text" title="Enter search query here.." placeholder="Search.." aria-label="Search">
-					</form>
-				</div>
-			</nav> <!-- /.navbar -->
-	</header>
-	<main class="main pt-4" role="main">
+							<a class="nav-link" href="#">Contact</a>
+						</li> <!-- /.nav-item -->
+
+					</ul> <!-- /.navbar-nav -->
+
+					<form class="form-inline">
+
+						<input id="header-search" class="form-control mr-sm-2" type="text" placeholder="Search.." aria-label="Search">
+
+					</form> <!-- /.form-inline -->
+
+				</div> <!-- /.navbar-collapse -->
+			
+			</div> <!-- /.container -->
+		
+		</nav> <!-- /.navbar -->
+
+	</header> <!-- /.site-header -->
+
+	<div class="site-main pt-4 pb-5">
+
 		<div class="intro">
+
 			<div class="container-fluid">
+
 				<div class="row">
-					<div class="col-md-4">
-						<img src="https://lorempixel.com/400/600/">
-					</div>
 
 					<div class="col-md-4">
-						<img src="https://lorempixel.com/400/600/">
-					</div>
+						<img src="https://lorempixel.com/409/500">
+					</div> <!-- /intro-block -->
 
 					<div class="col-md-4">
-						<img src="https://lorempixel.com/400/600/">
-					</div>
-				</div>
-			</div>
-		</div>
+						<img src="https://lorempixel.com/409/500">
+					</div> <!-- /intro-block -->
+
+					<div class="col-md-4">
+						<img src="https://lorempixel.com/409/500">
+					</div> <!-- /intro-block -->
+
+				</div> <!-- /.row -->
+
+			</div> <!-- /.container-fluid -->
+
+		</div> <!-- /.intro  -->
 
 		<div class="container">
 
 			<hr>
-			
+
 			<div class="row">
+
 				<div class="col-md-9">
+
 					<div class="row">
+
 						<div class="col-md-6">
-							<article class="card md-4">
-								<a href="#">
-									<img src="https://lorempixel.com/418/278/">
+
+							<article class="card mb-4 border-0">
+
+								<header class="card-header bg-white">
+
+									<p>7 months ago in Lorem</p>
+						
+									<h4 class="card-title font-weight-bold">Lorem ipsum dolor</h4>
+
+								</header>
+
+								<img class="card-img" src="https://lorempixel.com/1920/1280/">
+
+								<div class="card-body only-bottom-border">
+
+									<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+								</div> <!-- /.card-body -->
+
+							</article> <!-- /.card -->
+
+							<article class="card mb-4 border-0">
+
+								<header class="card-header bg-white">
+
+									<p>8 months ago in Dolor</p>
+						
+									<h4 class="card-title font-weight-bold">Lorem ipsum dolor</h4>
+
+								</header>
+
+								<img class="card-img" src="https://lorempixel.com/363/545/">
+
+								<div class="card-body only-bottom-border">
+
+									<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+								</div> <!-- /.card-body -->
+
+							</article> <!-- /.card -->
+
+							<article class="card mb-4 border-0">
+
+								<header class="card-header bg-white">
+
+									<p>11 months ago in Ipsum</p>
+						
+									<h4 class="card-title font-weight-bold">Lorem ipsum dolor</h4>
+
+								</header>
+
+								<img class="card-img" src="https://lorempixel.com/1920/1280/">
+
+								<div class="card-body only-bottom-border">
+
+									<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+								</div> <!-- /.card-body -->
+
+							</article> <!-- /.card -->
+
+						</div> <!-- /.col-md-6 -->
+						
+						<div class="col-md-6">
+
+							<article class="card mb-4 border-0">
+
+								<header class="card-header bg-white">
+
+									<p>8 months ago in Dolor</p>
+						
+									<h4 class="card-title font-weight-bold">Lorem ipsum dolor</h4>
+
+								</header>
+
+								<img class="card-img" src="https://lorempixel.com/363/545/">
+
+								<div class="card-body only-bottom-border">
+
+									<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+								</div> <!-- /.card-body -->
+
+							</article> <!-- /.card -->
+
+							<article class="card mb-4 border-0">
+
+								<header class="card-header bg-white">
+
+									<p>10 months ago in Ipsum</p>
+						
+									<h4 class="card-title font-weight-bold">Lorem ipsum dolor</h4>
+
+								</header>
+
+								<img class="card-img" src="https://lorempixel.com/1920/1196/">
+
+								<div class="card-body only-bottom-border">
+
+									<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+								</div> <!-- /.card-body -->
+
+							</article> <!-- /.card -->
+
+							<article class="card mb-4 border-0">
+
+								<header class="card-header bg-white">
+
+									<p>1 year ago in Lorem</p>
+						
+									<h4 class="card-title font-weight-bold">Lorem ipsum dolor</h4>
+
+								</header>
+
+								<img class="card-img" src="https://lorempixel.com/1920/1441/">
+
+								<div class="card-body only-bottom-border">
+
+									<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+								</div> <!-- /.card-body -->
+
+							</article> <!-- /.card -->
+
+						</div> <!-- /.col-md-6 -->
+
+					</div> <!-- /.row -->
+				
+				</div> <!-- /.col-md-9 -->
+
+				<div class="col-md-3 ml-auto">
+
+					<aside class="sidebar">
+
+						<div class="card mb-4 border-0">
+
+							<div class="card-body">
+
+								<h4 class="card-title font-weight-bold">About</h4>
+								<p class="card-text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.</p>
+
+							</div>	<!-- /.card-body -->
+
+						</div> <!-- /.card -->
+
+					<hr>
+
+					</aside> <!-- /.sidebar -->
+
+					<aside class="sidebar">
+
+						<div class="card mb-4 border-0"> 
+
+							<div class="card-body">
+
+								<h4 class="card-title font-weight-bold">Tags</h4>
+								<a class="btn btn-light btn-sm mb-1 font-weight-bold" href="#">Lorem</a>
+								<a class="btn btn-light btn-sm mb-1 font-weight-bold" href="#">Ipsum</a>
+								<a class="btn btn-light btn-sm mb-1 font-weight-bold" href="#">Dolor</a>
+								<a class="btn btn-light btn-sm mb-1 font-weight-bold" href="#">Sit</a>
+								<a class="btn btn-light btn-sm mb-1 font-weight-bold" href="#">Amet</a>
+								<a class="btn btn-light btn-sm mb-1 font-weight-bold" href="#">Consectetur</a>
+								<a class="btn btn-light btn-sm mb-1 font-weight-bold" href="#">Adipisicing</a>
+								<a class="btn btn-light btn-sm mb-1 font-weight-bold" href="#">Elit</a>
+
+							</div> <!-- /.card-body -->
+
+						</div> <!-- /.card -->
+
+						<hr>
+
+						<div class="card mb-4 border-0"> 
+
+							<div class="card-body">
+
+								<h4 class="card-title font-weight-bold">Popular Stories</h4>
+
+								<a href="#" class="d-inline-block">
+									<h4 class="h6 font-weight-bold">Lorem ipsum dolor</h4>
+									<img class="card-img" src="https://lorempixel.com/1920/1080/" alt="Mock Image Only">
+									<p>8 months ago in Dolor</p>
 								</a>
-							</article>
-							<article class="card md-4">
-								<a href="#">
-									<img src="https://lorempixel.com/418/278/">
+
+								<a href="#" class="d-inline-block mt-3">
+									<h4 class="h6 font-weight-bold">Lorem ipsum dolor</h4>
+									<img class="card-img" src="https://lorempixel.com/1920/1080/" alt="Mock Image Only">
+									<p>11 months ago in Ipsum</p>
 								</a>
-							</article>
-							<article class="card md-4">
-								<a href="#">
-									<img src="https://lorempixel.com/418/278/">
-								</a>
-							</article>
-						</div>
+
+							</div> <!-- /.card body -->
+
+						</div> <!-- /.card -->
+
+						<hr>
+
+					</aside> <!-- /.sidebar-sticky -->
+
+				</div> <!-- /.col-md-3 -->
+
+			</div> <!-- /.row -->
+
+		</div> <!-- /.container -->
+
+	</div> <!-- /.site-main -->
+
+	<div class="site-newsletter bg-light">
+
+		<div class="container">
+
+			<div class="text-center">
+
+				<h3 class="h4 mb-2 font-weight-bold">Subscribe to our newsletter</h3>
+
+				<p class="text-muted">Join our monthly newsletter and never miss out on new stories and promotions.</p>
+
+				<div class="row">
+
+					<div class="col-xs-12 col-sm-9 col-md-7 col-lg-5 ml-auto mr-auto">
+
+						<div class="input-group mb-3 mt-3">
+
+							<input type="text" class="form-control" placeholder="Email address" aria-label="Email address">
+
+							<span class="input-group-btn"> 
+								<button class="btn btn-secondary" type="button">Subscribe</button>
+							</span>
+
+						</div> <!-- /.input-group -->
+
 					</div>
-				</div>
 
-				<div class="col-md-3 ml-auto">	
-				</div>
-			</div>
+				</div> <!-- /.row -->
+
+			</div> <!-- /.text-center -->
+
+		</div> <!-- /.container -->
+
+	</div> <!-- /.site-newsletter -->
+
+	<div class="site-instagram">
+
+		<div class="img-overlay">
+			<a class="btn btn-light" href="#">Follow us @ Instagram</a>
 		</div>
-	</main>
 
-			<div class="card">
-				<div class="card-header bg-white">
-					<h3>About</h3>
-				</div>
+		<div class="row no-gutters">
 
-				<div class="card-body">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-			</div>
-		</div> <!-- /.row -->
+			<div class="col-sm-6">
 
-		<!-- Loads Custom Script -->
-		<script src="./assets/js/script.js"></script>
-	</body>
+				<div class="row no-gutters">
 
-	</html>
+					<div class="col-3 img-fade-container">
+						<img class="img-fluid img-fade" src="./assets/img/insta-01.jpg">
+					</div> <!-- /.col-3 -->
+					
+					<div class="col-3 img-fade-container">
+						<img class="img-fluid img-fade" src="./assets/img/insta-02.jpg">
+					</div> <!-- /.col-3 -->
+					
+					<div class="col-3 img-fade-container">
+						<img class="img-fluid img-fade" src="./assets/img/insta-03.jpg">
+					</div> <!-- /.col-3 -->
+					
+					<div class="col-3 img-fade-container">
+						<img class="img-fluid img-fade" src="./assets/img/insta-04.jpg">
+					</div> <!-- /.col-3 -->
+					
+				</div> <!-- /.row no-gutters -->
+
+			</div> <!-- /.col-sm-6 -->
+
+			<div class="col-sm-6">
+
+				<div class="row no-gutters">
+
+					<div class="col-3 img-fade-container">
+						<img class="img-fluid img-fade" src="./assets/img/insta-05.jpg">
+					</div> <!-- /.col-3 -->
+			
+					<div class="col-3 img-fade-container">
+						<img class="img-fluid img-fade" src="./assets/img/insta-06.jpg">
+					</div> <!-- /.col-3 -->
+					
+					<div class="col-3 img-fade-container">
+						<img class="img-fluid img-fade" src="./assets/img/insta-07.jpg">
+					</div> <!-- /.col-3 -->
+					
+					<div class="col-3 img-fade-container">
+						<img class="img-fluid img-fade" src="./assets/img/insta-08.jpg">
+					</div> <!-- /.col-3 -->
+
+				</div> <!-- /.row no-gutters -->
+
+			</div> <!-- /.col-sm-6 -->
+
+		</div> <!-- /.row no-gutters -->
+
+	</div> <!-- /.site-instagram -->
+
+	<footer class="site-footer">
+
+		<div class="container">
+
+			<ul class="nav justify-content-center">
+
+				<li class="nav-item">
+					<a class="nav-link" href="#">Privacy policy</a>
+				</li> <!-- /.nav-item -->
+				
+				<li class="nav-item">
+					<a class="nav-link" href="#">Terms</a>
+				</li> <!-- /.nav-item -->
+				
+				<li class="nav-item">
+					<a class="nav-link" href="#">Feedback</a>
+				</li> <!-- /.nav-item -->
+				
+				<li class="nav-item">
+					<a class="nav-link" href="#">Advertise</a>
+				</li> <!-- /.nav-item -->
+				
+				<li class="nav-item">
+					<a class="nav-link" href="#">Contact</a>
+				</li> <!-- /.nav-item -->
+
+			</ul> <!-- /.nav -->
+
+			<hr class="mx-auto">
+
+			<div class="copy">
+
+				<div class="text-center">
+
+					<p>Copyright &copy; 2018 by Clint S. Diamante</p>	
+
+				</div> <!-- /.text-center -->
+
+			</div> <!-- /.copy -->
+
+		</div> <!-- /.container -->
+
+	</footer> <!-- /.site-footer -->
+
+	<!-- Loads Custom Script -->
+	<script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
