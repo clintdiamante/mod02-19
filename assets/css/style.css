@@ -39,7 +39,6 @@
  	font-family: 'Unica One', sans-serif;
  }
 
-
  header > nav > div > div > ul > li > a {
  	color: #4C4C4C;
  }
@@ -80,7 +79,12 @@
  */
 
  div.site-newsletter {
- 	padding: 80px;
+ 	min-height: 30vh;
+ 	padding-bottom: 80px;
+ }
+
+ div.site-newsletter > div {
+ 	padding-top: 80px;
  }
 
 /*
@@ -131,9 +135,8 @@
  	font-family: 'Unica One', sans-serif;
  }
 
- footer > div > hr {
- 	width: 800px;
- 	background-color: #808080;
+ footer > div > ul {
+ 	border-bottom: 1px solid #808080;
  }
 
  footer > div > ul > li > a {
@@ -141,12 +144,12 @@
  	text-transform: uppercase;
  }
 
- footer > div > ul > li:nth-child(2),
+ /*footer > div > ul > li:nth-child(2),
  footer > div > ul > li:nth-child(3),
  footer > div > ul > li:nth-child(4),
  footer > div > ul > li:nth-child(5) {
  	border-left: 1px solid #808080;
- }
+ }*/
 
  footer > div > ul > li > a:hover {
  	color: #FFF;
@@ -155,3 +158,4 @@
  footer > div > div div > p {
  	color: #808080;
  }
+
